@@ -1,32 +1,14 @@
-import { ReactNode } from "react";
+import Link from "next/link";
 import {
   Box,
   Flex,
   HStack,
-  Link,
   IconButton,
   useDisclosure,
   useColorModeValue,
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-
-const Links = ["Home", "Services", "Service Fees", "About", "Contact"];
-
-const NavLink = ({ children }: { children: ReactNode }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    _hover={{
-      textDecoration: "none",
-      bg: useColorModeValue("gray.200", "gray.700"),
-    }}
-    href={"#"}
-  >
-    {children}
-  </Link>
-);
 
 export default function Navigation() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -51,9 +33,11 @@ export default function Navigation() {
               spacing={4}
               display={{ base: "none", md: "flex" }}
             >
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <Link href="/">Home</Link>
+              <Link href="/services">Services</Link>
+              <Link href="/service-fees">Service Fees</Link>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Contact</Link>
             </HStack>
           </Flex>
         </Flex>
@@ -61,9 +45,11 @@ export default function Navigation() {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={2}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <Link href="/">Home</Link>
+              <Link href="/services">Services</Link>
+              <Link href="/service-fees">Service Fees</Link>
+              <Link href="/about">About</Link>
+              <Link href="/contact">Contact</Link>
             </Stack>
           </Box>
         ) : null}
