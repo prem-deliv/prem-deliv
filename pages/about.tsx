@@ -11,7 +11,6 @@ const About: NextPage = () => {
         <meta name="description" content="Desc goes here" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <h1>About</h1>
     </>
   );

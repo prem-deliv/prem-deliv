@@ -1,4 +1,4 @@
-import { Container, Grid, GridItem, Button } from "@chakra-ui/react";
+import { Container, Row, Col, Button } from "reactstrap";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -26,41 +26,52 @@ const Services: React.FC<Props> = ({
   return (
     <>
       <section className={styles.services}>
-        <Container maxW="container.lg">
-          <h2 className={styles.services__title}>{title}</h2>
-          <hr />
-          <Grid templateColumns="repeat(3, 1fr)" gap={6}>
-            <GridItem w="100%">
+        <Container>
+          <Row>
+            <Col lg="12">
+              <h2 className={styles.services__title}>{title}</h2>
+              <hr />
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="4">
               <Image
+                className="img-fluid"
                 src={iconOne}
                 width="400px"
                 height="400px"
                 alt={headingOne}
               />
               <h3>{headingOne}</h3>
-            </GridItem>
-            <GridItem w="100%">
+            </Col>
+            <Col lg="4">
               <Image
+                className="img-fluid"
                 src={iconTwo}
                 width="400px"
                 height="400px"
                 alt={headingTwo}
               />
               <h3>{headingTwo}</h3>
-            </GridItem>
-            <GridItem w="100%">
+            </Col>
+            <Col lg="4">
               <Image
+                className="img-fluid"
                 src={iconThree}
                 width="400px"
                 height="400px"
                 alt={headingThree}
               />
               <h3>{headingThree}</h3>
-            </GridItem>
-          </Grid>
-          <Link href="/services">
-            <Button>View Services</Button>
-          </Link>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg="12">
+              <Link href="/services">
+                <Button>View Services</Button>
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>

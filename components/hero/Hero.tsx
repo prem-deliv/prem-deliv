@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button, Container } from "@chakra-ui/react";
+import { Container, Row, Col, Button } from "reactstrap";
 
 import styles from "../hero/Hero.module.scss";
 
@@ -15,13 +15,17 @@ const Hero: React.FC<Props> = ({ title, subTitle, btnLink, btnText }) => {
     <>
       <section className={styles.hero}>
         <Container>
-          <h1 className={styles.hero__title}>{title}</h1>
-          <h2 className={styles.hero__subtitle}>{subTitle}</h2>
-          <Link href={btnLink}>
-            <a className={styles.hero__link}>
-              <Button className={styles.hero__button}>{btnText}</Button>
-            </a>
-          </Link>
+          <Row>
+            <Col lg="12">
+              <h1 className={styles.hero__title}>{title}</h1>
+              <h2 className={styles.hero__subtitle}>{subTitle}</h2>
+              <Link href={btnLink}>
+                <a className={styles.hero__link}>
+                  <Button className={styles.hero__button}>{btnText}</Button>
+                </a>
+              </Link>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>

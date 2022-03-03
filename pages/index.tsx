@@ -1,14 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-import Navigation from "../components/shared/nav/Navigation";
 import Hero from "../components/hero/Hero";
 import Intro from "../components/intro/Intro";
 import Services from "../components/services/Services";
+import Price from "../components/prices/Price";
 
 import serviceOneImage from "../public/service-1.svg";
 import serviceTwoImage from "../public/service-2.svg";
 import serviceThreeImage from "../public/service-3.svg";
+import deliveryImage from "../public/fort-erie-food-delivery-prices.jpg";
 
 const heroProps = {
   title: "Best Food Delivery in Fort Erie",
@@ -31,6 +32,13 @@ const servicesProps = {
   headingThree: "Fast Food",
   iconThree: serviceThreeImage,
 };
+
+const deliveryProps = {
+  title: "Fort Erie Food Delivery Prices",
+  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet nunc sit amet laoreet consequat. Nam fermentum, felis sit amet lacinia sollicitudin, odio leo sagittis metus, eu molestie erat leo in massa. Cras quis feugiat lacus. Suspendisse a eros consequat, consectetur neque eget.",
+  image: deliveryImage,
+};
+
 const Home: NextPage = () => {
   return (
     <>
@@ -42,10 +50,10 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navigation />
       <Hero {...heroProps} />
       <Intro {...introProps} />
       <Services {...servicesProps} />
+      <Price {...deliveryProps} />
     </>
   );
 };

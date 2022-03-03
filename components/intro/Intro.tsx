@@ -1,4 +1,4 @@
-import { Container } from "@chakra-ui/react";
+import { Container, Row, Col } from "reactstrap";
 
 import styles from "../intro/Intro.module.scss";
 
@@ -11,10 +11,14 @@ const Intro: React.FC<Props> = ({ title, desc }) => {
   return (
     <>
       <section className={styles.intro}>
-        <Container maxW="container.lg">
-          <h2 className={styles.intro__title}>{title}</h2>
-          <hr />
-          <p>{desc}</p>
+        <Container>
+          <Row>
+            <Col lg="12">
+              <h2 className={styles.intro__title}>{title}</h2>
+              <hr />
+              <p>{desc}</p>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>
