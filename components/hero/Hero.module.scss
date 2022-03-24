@@ -1,7 +1,17 @@
+@import "../../styles/variables.scss";
+
 .hero {
-  padding: 120px 0px 120px 0px;
+  background: url("../../public/hero.jpg") center center no-repeat;
+  padding: 260px 0px 260px 0px;
   text-align: center;
+  margin-top: -31px;
   &__title {
-    color: red;
+    color: $white;
+    font-size: 28px;
+    font-weight: 300;
+  }
+  &__subtitle {
+    color: $white;
+    font-size: 80px;
   }
 }

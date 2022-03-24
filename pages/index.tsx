@@ -13,7 +13,7 @@ import deliveryImage from "../public/fort-erie-food-delivery-prices.jpg";
 
 const heroProps = {
   title: "Best Food Delivery in Fort Erie",
-  subTitle: "Fast, Friendly, Efficient",
+  subTitle: "Fresh, Fast, Local",
   btnText: "View Services",
   btnLink: "/services",
 };
