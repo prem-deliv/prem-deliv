@@ -1,9 +1,13 @@
 @import "/styles/variables.scss";
+@import "/styles/breakpoints.scss";
 
 .nav {
   background: $red;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
   padding: 20px 0px 20px 0px;
+  @include bp-tablet-sm {
+    padding: 0px;
+  }
   a {
     color: $white;
     text-decoration: none;

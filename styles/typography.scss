@@ -1,3 +1,5 @@
+@import "/styles/breakpoints.scss";
+
 h1,
 h2,
 h3,
@@ -9,4 +11,12 @@ h6 {
 
 h2 {
   font-size: 36px;
+  @include bp-tablet-sm {
+    font-size: 28px;
+  }
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
 }

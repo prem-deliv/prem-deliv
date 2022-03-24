@@ -1,4 +1,9 @@
+@import "../../styles/breakpoints.scss";
+
 .intro {
-  padding: 120px 0px 120px 0px;
+  padding: 100px 0px 120px 0px;
   text-align: center;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
 }

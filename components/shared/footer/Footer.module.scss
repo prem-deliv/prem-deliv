@@ -1,0 +1,23 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/breakpoints.scss";
+
+.footer {
+  padding: 120px 0px 120px 0px;
+  background: $black;
+  h2,
+  a {
+    color: $white;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      color: $red;
+    }
+  }
+  p {
+    color: $white;
+    &.sub {
+      color: red;
+    }
+  }
+}

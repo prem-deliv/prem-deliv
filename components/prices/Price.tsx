@@ -18,7 +18,12 @@ const Price: React.FC<Props> = ({ title, desc, image }) => {
             <Col lg="6">
               <Image className="img-fluid" src={image} alt={title} />
             </Col>
-            <Col lg="6">
+            <Col
+              lg={{
+                offset: 1,
+                size: 5,
+              }}
+            >
               <h2 className={styles.prices__title}>{title}</h2>
               <hr />
               <p>{desc}</p>

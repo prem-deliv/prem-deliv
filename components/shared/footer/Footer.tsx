@@ -1,15 +1,19 @@
 import Link from "next/link";
 import { Container, Row, Col, Button } from "reactstrap";
 
+import styles from "../footer/Footer.module.scss";
+
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className={styles.footer}>
         <Container>
           <Row>
             <Col lg="9">
               <h2>Contact Us Today</h2>
-              <p>We’re here to help with your delivery needs.</p>
+              <p className="sub">
+                We’re here to help with your delivery needs.
+              </p>
             </Col>
             <Col lg="3">
               <Link href="/contact">

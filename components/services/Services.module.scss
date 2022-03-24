@@ -1,4 +1,11 @@
+@import "../../styles/variables.scss";
+@import "../../styles/breakpoints.scss";
+
 .services {
   padding: 120px 0px 120px 0px;
   text-align: center;
+  background: $grey;
+  button {
+    margin-top: 30px;
+  }
 }
