@@ -68,7 +68,7 @@ const Services: React.FC<Props> = ({
           <Row>
             <Col lg="12">
               <Link href="/services">
-                <Button>View Services</Button>
+                <Button>View All Services</Button>
               </Link>
             </Col>
           </Row>

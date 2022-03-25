@@ -12,25 +12,57 @@ import serviceThreeImage from "../public/service-3.svg";
 import deliveryImage from "../public/fort-erie-food-delivery-prices.jpg";
 
 const heroProps = {
-  title: "Best Food Delivery in Fort Erie",
-  subTitle: "Fresh, Fast, Local",
+  title: "Fort Erie’s Best Food Delivery Service",
+  subTitle: "Fast - Friendly - Efficient",
   btnText: "View Services",
   btnLink: "/services",
 };
 
 const introProps = {
-  title: "Premium Delivery - Fort Erie Food Delivery",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet nunc sit amet laoreet consequat. Nam fermentum, felis sit amet lacinia sollicitudin, odio leo sagittis metus, eu molestie erat leo in massa. Cras quis feugiat lacus. Suspendisse a eros consequat, consectetur neque eget.",
+  title: "Fort Erie Food Delivery",
+  subTitle:
+    "Tired Of Talking To A Machine? Get Everything You Want In A Single Call",
+  desc: (
+    <>
+      We are Fort Erie’s go-to food delivery company. From your weekly grocery
+      run to your preferred nightcap from the LCBO and epic munchie cravings, we
+      have you covered! Your favourites- delivered in as little as 1 hour!
+      <br />
+      <br />
+    </>
+  ),
+  order: (
+    <>
+      <strong>Ordering with us is simple</strong>
+      <ol>
+        <li>
+          Call us at <a href="tel:289-969-1277">289-969-1277</a>.
+        </li>
+        <li>Place your order.</li>
+        <li>Do something fun while we bring everything right to your door! </li>
+      </ol>
+    </>
+  ),
+  free: (
+    <>
+      Free time is at a premium these days, so give yourself a break and let us
+      deliver everything you need. We treat every order like we’re shopping for
+      our own family. Nothing is more convenient than direct to your door
+      Premium Delivery.
+    </>
+  ),
+  btnLink: "tel:289-969-1277",
+  btnText: "Call Us Today",
 };
 
 const servicesProps = {
   title: "Our Food Delivery Services in Fort Erie",
-  headingOne: "Take Out Food",
+  headingOne: "Grocery",
   iconOne: serviceOneImage,
-  headingTwo: "Alcohol (19+)",
-  iconTwo: serviceTwoImage,
-  headingThree: "Fast Food",
-  iconThree: serviceThreeImage,
+  headingTwo: "Takeout",
+  iconTwo: serviceThreeImage,
+  headingThree: "Alcohol (19+)",
+  iconThree: serviceTwoImage,
 };
 
 const deliveryProps = {

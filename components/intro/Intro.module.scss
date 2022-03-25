@@ -2,8 +2,19 @@
 
 .intro {
   padding: 100px 0px 120px 0px;
-  text-align: center;
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
+  }
+  h2,
+  h4 {
+    text-align: center;
+  }
+  p {
+    &#desc {
+      text-align: center;
+    }
+  }
+  button {
+    margin-top: 30px;
   }
 }
