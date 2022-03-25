@@ -11,7 +11,7 @@ const Footer = () => {
           <Row>
             <Col lg="9">
               <h2>Contact Us Today</h2>
-              <p className="sub">
+              <p className={styles.sub}>
                 We’re here to help with your delivery needs.
               </p>
             </Col>
@@ -21,7 +21,7 @@ const Footer = () => {
               </Link>
             </Col>
           </Row>
-          <Row className="top">
+          <Row className={styles.top}>
             <Col lg="3">
               <p>
                 P.O Box 1410 Garrison

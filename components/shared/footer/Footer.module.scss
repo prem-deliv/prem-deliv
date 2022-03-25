@@ -4,6 +4,9 @@
 .footer {
   padding: 120px 0px 120px 0px;
   background: $black;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
   h2,
   a {
     color: $white;
@@ -16,8 +19,29 @@
   }
   p {
     color: $white;
+    @include bp-tablet-sm {
+      margin-top: 20px;
+    }
     &.sub {
-      color: red;
+      color: rgba($white, 0.6);
+      @include bp-tablet-sm {
+        margin-top: 0px;
+      }
+    }
+  }
+  button {
+    &:hover {
+      background: $white !important;
+      color: $black;
+    }
+  }
+  .top {
+    border-top: 1px solid $red;
+    padding-top: 80px;
+    margin-top: 80px;
+    @include bp-tablet-sm {
+      padding-top: 40px;
+      margin-top: 40px;
     }
   }
 }

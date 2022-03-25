@@ -3,9 +3,9 @@
 
 .hero {
   background: url("../../public/hero.jpg") center center no-repeat;
+  background-size: cover;
   padding: 260px 0px 260px 0px;
   text-align: center;
-  margin-top: -75px;
   @include bp-tablet-sm {
     margin-top: 0px;
     padding: 60px 0px 60px 0px;
