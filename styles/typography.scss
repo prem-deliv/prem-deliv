@@ -21,13 +21,15 @@ h4 {
   color: rgba($black, 0.5);
 }
 
-p {
+p,
+ul {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 a {
   color: $red;
+  transition: 0.2s;
   &:hover {
     color: $black;
   }

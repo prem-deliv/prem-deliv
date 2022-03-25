@@ -6,7 +6,9 @@ import "../styles/variables.scss";
 import "../styles/typography.scss";
 import "../styles/button.scss";
 import "../styles/hr.scss";
+import "../styles/table.scss";
 import "../styles/breakpoints.scss";
+import "../styles/inner-content.scss";
 import Navigation from "../components/shared/nav/Navigation";
 import Footer from "../components/shared/footer/Footer";
 

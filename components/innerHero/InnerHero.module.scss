@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+@import "../../styles/breakpoints.scss";
+
+.inner-hero {
+  background: url(../../public/hero.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 100px 0px 80px 0px;
+  text-align: center;
+  @include bp-tablet-sm {
+    margin-top: 0px;
+    padding: 60px 0px 60px 0px;
+  }
+  &__title {
+    color: $white;
+  }
+  &__subtitle {
+    color: rgba($white, 0.7);
+    @include bp-tablet-sm {
+      font-size: 16px;
+    }
+  }
+  hr {
+    border-top: 1px solid $white;
+    @include bp-tablet-sm {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+  }
+}
