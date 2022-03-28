@@ -43,8 +43,8 @@ const About: NextPage = () => {
                 efficient deliveries. Delivery times aren't guaranteed.
                 Inclement weather, traffic delays, and other unforeseen
                 circumstances may affect our services. We do our best to
-                communicate any and all delays so you’re never left wondering
-                where your orders are.
+                communicate any and all delays so you&apos;re never left
+                wondering where your orders are.
               </p>
               <h2>FAQs</h2>
               <p>
@@ -52,15 +52,15 @@ const About: NextPage = () => {
               </p>
               <p>
                 We make it as simple as possible. Simply call our service
-                number, place your order, and we’ll do all the work!
+                number, place your order, and we&apos;ll do all the work!
               </p>
               <p>
                 <strong>Where can I order food from?</strong>
               </p>
               <p>
-                Anywhere you’d like! We’ll pick up, and deliver, from any
-                grocery, variety, restaurant, or fast food establishment in the
-                Greater Fort Erie area.{" "}
+                Anywhere you&apos;d like! We&apos;ll pick up, and deliver, from
+                any grocery, variety, restaurant, or fast food establishment in
+                the Greater Fort Erie area.{" "}
               </p>
               <p>
                 <strong>
@@ -116,10 +116,10 @@ const About: NextPage = () => {
                 <strong>What happens when something is unavailable?</strong>
               </p>
               <p>
-                We pride ourselves on personalized services. If we can’t get
-                what you want, and you haven’t told us substitutions, we will
-                call you to ask what you’d like instead. You choose what you
-                want and don’t want.{" "}
+                We pride ourselves on personalized services. If we can&apos;t
+                get what you want, and you haven&apos;t told us substitutions,
+                we will call you to ask what you&apos;d like instead. You choose
+                what you want and don&apos;t want.{" "}
               </p>
               <p>
                 <strong>How can I pay?</strong>
