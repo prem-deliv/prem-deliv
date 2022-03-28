@@ -12,7 +12,7 @@ import serviceThreeImage from "../public/service-3.svg";
 import deliveryImage from "../public/fort-erie-food-delivery-prices.jpg";
 
 const heroProps = {
-  title: "Fort Erie&apos;s Best Food Delivery Service",
+  title: "Fort Erie's Best Food Delivery Service",
   bizName: "Premium Delivery",
   subTitle: "Fast - Friendly - Efficient",
   btnText: "View Services",
