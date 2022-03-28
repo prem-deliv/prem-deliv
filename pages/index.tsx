@@ -12,7 +12,7 @@ import serviceThreeImage from "../public/service-3.svg";
 import deliveryImage from "../public/fort-erie-food-delivery-prices.jpg";
 
 const heroProps = {
-  title: "Fort Erie’s Best Food Delivery Service",
+  title: "Fort Erie&apos;s Best Food Delivery Service",
   bizName: "Premium Delivery",
   subTitle: "Fast - Friendly - Efficient",
   btnText: "View Services",
@@ -25,9 +25,10 @@ const introProps = {
     "Tired Of Talking To A Machine? Get Everything You Want In A Single Call",
   desc: (
     <>
-      We are Fort Erie’s go-to food delivery company. From your weekly grocery
-      run to your preferred nightcap from the LCBO and epic munchie cravings, we
-      have you covered! Your favourites- delivered in as little as 1 hour!
+      We are Fort Erie&apos;s go-to food delivery company. From your weekly
+      grocery run to your preferred nightcap from the LCBO and epic munchie
+      cravings, we have you covered! Your favourites- delivered in as little as
+      1 hour!
       <br />
       <br />
     </>
@@ -47,8 +48,8 @@ const introProps = {
   free: (
     <>
       Free time is at a premium these days, so give yourself a break and let us
-      deliver everything you need. We treat every order like we’re shopping for
-      our own family. Nothing is more convenient than direct to your door
+      deliver everything you need. We treat every order like we&apos;re shopping
+      for our own family. Nothing is more convenient than direct to your door
       Premium Delivery.
     </>
   ),
