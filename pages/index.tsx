@@ -13,6 +13,7 @@ import deliveryImage from "../public/fort-erie-food-delivery-prices.jpg";
 
 const heroProps = {
   title: "Fort Erie’s Best Food Delivery Service",
+  bizName: "Premium Delivery",
   subTitle: "Fast - Friendly - Efficient",
   btnText: "View Services",
   btnLink: "/services",
@@ -66,8 +67,49 @@ const servicesProps = {
 };
 
 const deliveryProps = {
-  title: "Fort Erie Food Delivery Prices",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet nunc sit amet laoreet consequat. Nam fermentum, felis sit amet lacinia sollicitudin, odio leo sagittis metus, eu molestie erat leo in massa. Cras quis feugiat lacus. Suspendisse a eros consequat, consectetur neque eget.",
+  title: "Hours of Operation",
+  desc: (
+    <>
+      <table className="table">
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>11:00am- 9:00pm</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>11:00am- 9:00pm</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>11:00am- 9:00pm</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>11:00am- 9:00pm</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>11:00am- 9:00pm</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>11:00am- 9:00pm</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>CLOSED</td>
+          </tr>
+        </tbody>
+      </table>
+    </>
+  ),
   image: deliveryImage,
 };
 

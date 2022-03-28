@@ -10,9 +10,10 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="9">
-              <h2>Contact Us Today</h2>
+              <h2>Call Us Today</h2>
               <p className={styles.sub}>
-                We’re here to help with your delivery needs.
+                Premium Delivery. Premium Services. Here To Help With All Your
+                Delivery Needs.
               </p>
             </Col>
             <Col lg="3">

@@ -1,12 +1,13 @@
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "../prices/Prices.module.scss";
 
 interface Props {
   title: string;
-  desc: string;
-  image: string;
+  desc: any;
+  image: any;
 }
 
 const Price: React.FC<Props> = ({ title, desc, image }) => {
@@ -26,7 +27,10 @@ const Price: React.FC<Props> = ({ title, desc, image }) => {
             >
               <h2 className={styles.prices__title}>{title}</h2>
               <hr />
-              <p>{desc}</p>
+              {desc}
+              <Link href="/service-fees">
+                <Button>Food Delivery Prices</Button>
+              </Link>
             </Col>
           </Row>
         </Container>

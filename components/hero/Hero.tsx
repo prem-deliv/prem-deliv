@@ -5,12 +5,19 @@ import styles from "../hero/Hero.module.scss";
 
 interface Props {
   title: string;
+  bizName: string;
   subTitle: string;
   btnText: string;
   btnLink: string;
 }
 
-const Hero: React.FC<Props> = ({ title, subTitle, btnLink, btnText }) => {
+const Hero: React.FC<Props> = ({
+  title,
+  bizName,
+  subTitle,
+  btnLink,
+  btnText,
+}) => {
   return (
     <>
       <section className={styles.hero}>
@@ -18,6 +25,7 @@ const Hero: React.FC<Props> = ({ title, subTitle, btnLink, btnText }) => {
           <Row>
             <Col lg="12">
               <h1 className={styles.hero__title}>{title}</h1>
+              <p className={styles.hero__biz}>{bizName}</p>
               <h2 className={styles.hero__subtitle}>{subTitle}</h2>
               <Link href={btnLink}>
                 <a className={styles.hero__link}>

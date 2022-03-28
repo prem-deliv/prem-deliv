@@ -6,9 +6,9 @@ import styles from "../intro/Intro.module.scss";
 interface Props {
   title: string;
   subTitle: string;
-  desc: string;
-  order: string;
-  free: string;
+  desc: any;
+  order: any;
+  free: any;
   btnLink: string;
   btnText: string;
 }
