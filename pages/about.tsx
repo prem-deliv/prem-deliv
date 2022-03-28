@@ -40,7 +40,7 @@ const About: NextPage = () => {
               </p>
               <p>
                 Premium Delivery does its best to provide fast, friendly, and
-                efficient deliveries. Delivery times aren't guaranteed.
+                efficient deliveries. Delivery times aren&apos;t guaranteed.
                 Inclement weather, traffic delays, and other unforeseen
                 circumstances may affect our services. We do our best to
                 communicate any and all delays so you&apos;re never left
