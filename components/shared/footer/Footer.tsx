@@ -43,12 +43,12 @@ const Footer = () => {
                 &copy; 2022 Premium Delivery. <br />
                 All Rights Reserved.
               </p>
-              <p>
+              {/* <p>
                 <a href="https://infused.agency">
                   Niagara SEO &amp; Web Design
                 </a>{" "}
                 by Infused Agency
-              </p>
+              </p> */}
             </Col>
           </Row>
         </Container>
