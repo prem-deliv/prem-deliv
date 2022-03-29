@@ -1,51 +1,37 @@
 import Link from "next/link";
-import {
-  NavbarBrand,
-  NavbarToggler,
-  Collapse,
-  NavItem,
-  NavLink,
-  Nav,
-  Navbar,
-} from "reactstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 
 import styles from "./Navigation.module.scss";
 
 const Navigation = () => {
   return (
     <div className={styles.nav}>
-      <Navbar expand="md">
-        <NavbarBrand href="/">Premium Delivery</NavbarBrand>
-        <NavbarToggler onClick={function noRefCheck() {}} />
-        <Collapse navbar>
-          <Nav className="ms-auto" navbar>
-            <NavItem>
-              <NavLink>
+      <Navbar expand="lg">
+        <Container>
+          <Navbar.Brand>
+            <Link href="/">Logo</Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link>
                 <Link href="/">Home</Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
+              </Nav.Link>
+              <Nav.Link>
                 <Link href="/services">Services</Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
+              </Nav.Link>
+              <Nav.Link>
                 <Link href="/service-fees">Service Fees</Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
+              </Nav.Link>
+              <Nav.Link>
                 <Link href="/about">About</Link>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink>
+              </Nav.Link>
+              <Nav.Link>
                 <Link href="/contact">Contact</Link>
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
       </Navbar>
     </div>
   );
