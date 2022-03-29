@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import Image from "next/image";
 
 import styles from "./Navigation.module.scss";
+import logo from "../../../public/logo.png";
 
 const Navigation = () => {
   return (
@@ -9,7 +11,13 @@ const Navigation = () => {
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand>
-            <Link href="/">Logo</Link>
+            <Link href="/">
+              <Image
+                className="img-fluid logo"
+                src={logo}
+                alt="Best Food Delivery Fort Erie"
+              />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
