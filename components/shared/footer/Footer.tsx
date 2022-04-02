@@ -34,7 +34,11 @@ const Footer = () => {
                 P.O Fort Erie Ontario L2A6G2
               </p>
               <div className="">
-                <a target="_blank" href="https://twitter.com/PremiumDeliver">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/PremiumDeliver"
+                >
                   <Image
                     className={styles.fb}
                     src={twitter}
@@ -43,6 +47,7 @@ const Footer = () => {
                 </a>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   href="https://www.facebook.com/Premium-Delivery-101259482496941"
                 >
                   <Image src={fb} alt="Premium Delivery Facebook" />
@@ -63,7 +68,11 @@ const Footer = () => {
                 All Rights Reserved.
               </p>
               <p>
-                <a target="_blank" href="https://infused.agency">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://infused.agency"
+                >
                   Niagara SEO &amp; Web Design
                 </a>{" "}
                 by Infused Agency
