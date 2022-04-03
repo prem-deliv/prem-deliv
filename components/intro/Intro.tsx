@@ -5,7 +5,7 @@ import styles from "../intro/Intro.module.scss";
 
 interface Props {
   title: string;
-  subTitle: string;
+  subTitle: any;
   desc: any;
   order: any;
   free: any;
