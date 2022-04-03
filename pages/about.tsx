@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import Head from "next/head";
 import { Container, Col, Row } from "reactstrap";
 import InnerHero from "../components/innerHero/InnerHero";
@@ -22,9 +23,9 @@ const About: NextPage = () => {
           <Row>
             <Col lg="12">
               <p>
-                Premium Delivery is a call-to-order grocery, food, and drink
-                delivery service. We serve Fort Erie proper, Stevensville,
-                Crystal Beach, and Ridgeway.
+                <Link href="/">Premium Delivery</Link> is a call-to-order
+                grocery, food, and drink delivery service. We serve Fort Erie
+                proper, Stevensville, Crystal Beach, and Ridgeway.
               </p>
               <p>
                 Life has never been busier, and you deserve a little break.

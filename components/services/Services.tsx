@@ -40,7 +40,7 @@ const Services: React.FC<Props> = ({
                 src={iconOne}
                 width="400px"
                 height="400px"
-                alt={headingOne}
+                alt="Fort Erie Food Delivery - Grocery"
               />
               <h3>{headingOne}</h3>
             </Col>
@@ -50,7 +50,7 @@ const Services: React.FC<Props> = ({
                 src={iconTwo}
                 width="400px"
                 height="400px"
-                alt={headingTwo}
+                alt="Fort Erie Food Delivery - Takeout"
               />
               <h3>{headingTwo}</h3>
             </Col>
@@ -60,7 +60,7 @@ const Services: React.FC<Props> = ({
                 src={iconThree}
                 width="400px"
                 height="400px"
-                alt={headingThree}
+                alt="Fort Erie Food Delivery - Alcohol"
               />
               <h3>{headingThree}</h3>
             </Col>
