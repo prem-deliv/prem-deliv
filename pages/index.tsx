@@ -20,9 +20,14 @@ const heroProps = {
 };
 
 const introProps = {
-  title: "Fort Erie Food Delivery",
-  subTitle:
-    "Tired Of Talking To A Machine? Get Everything You Want In A Single Call",
+  title: "Food Delivery in Fort Erie, Ontario",
+  subTitle: (
+    <>
+      Tired Of Talking To A Machine? Get Everything You Want In A Single Call
+      From Our <br />
+      Fort Erie Food Delivery Specialists
+    </>
+  ),
   desc: (
     <>
       We are Fort Erie&apos;s go-to food delivery company. From your weekly
@@ -68,7 +73,7 @@ const servicesProps = {
 };
 
 const deliveryProps = {
-  title: "Hours of Operation",
+  title: "Our Fort Erie Food Delivery Hours of Operation",
   desc: (
     <>
       <table className="table">
@@ -118,10 +123,10 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Best Food Delivery Fort Erie | Premium Delivery</title>
+        <title>Food Delivery in Fort Erie, Ontario | Premium Delivery</title>
         <meta
           name="description"
-          content="We are the best food delivery service in Fort Erie with the best prices around. Click here to learn more."
+          content="Best food delivery services in Fort Erie, Ontario. We offer grocery, takeout, alcohol, fast food delivery and more. Click here to learn more."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
