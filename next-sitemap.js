@@ -1,7 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://www.premiumdeliverys.com/",
-  generateRobotsTxt: true, // (optional)
-  // ...other options
+  siteUrl: "https://www.premiumdeliverys.com/",
+  generateRobotsTxt: true,
+  robotsTxtOptions: {
+    additionalSitemaps: [
+      'https://www.premiumdeliverys.com/sitemap-0.xml',
+    ],
 };
