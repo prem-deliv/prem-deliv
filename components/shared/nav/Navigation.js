@@ -21,13 +21,17 @@ const Navigation = () => {
               />
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            onClick={() => setExpanded(expanded ? false : "expanded")}
+            aria-controls="basic-navbar-nav"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto" onClick={() => setExpanded(false)}>
               <Link href="/">Home</Link>
               <Link href="/services">Services</Link>
               <Link href="/service-fees">Service Fees</Link>
               <Link href="/about">About</Link>
+              <Link href="/apply">Careers</Link>
               <Link href="/contact">Contact</Link>
             </Nav>
           </Navbar.Collapse>
