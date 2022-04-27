@@ -5,6 +5,8 @@ import Hero from "../components/hero/Hero";
 import Intro from "../components/intro/Intro";
 import Services from "../components/services/Services";
 import Price from "../components/prices/Price";
+import FAQ from "../components/faq/FAQ";
+import AboutErie from "../components/aboutErie/AboutErie";
 
 import serviceOneImage from "../public/service-1.svg";
 import serviceTwoImage from "../public/service-2.svg";
@@ -134,6 +136,8 @@ const Home: NextPage = () => {
       <Intro {...introProps} />
       <Services {...servicesProps} />
       <Price {...deliveryProps} />
+      <FAQ />
+      <AboutErie />
     </>
   );
 };
