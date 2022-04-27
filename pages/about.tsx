@@ -127,7 +127,7 @@ const About: NextPage = () => {
               </p>
               <p>We offer a variety of payment options. We take:</p>
               <ul>
-                <li>Interact/Debit</li>
+                <li>Interac/Debit</li>
                 <li>Mastercard</li>
                 <li>Visa</li>
                 <li>American Express</li>
