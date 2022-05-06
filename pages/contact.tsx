@@ -13,7 +13,10 @@ const Contact: NextPage = () => {
     <>
       <Head>
         <title>Contact - Premium Delivery</title>
-        <meta name="description" content="Desc goes here" />
+        <meta
+          name="description"
+          content="Give us a call to place your order, or let us know of any issues you may be experiencing. Phone: 289-969-1277"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <InnerHero {...Props} />

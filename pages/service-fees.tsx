@@ -13,7 +13,10 @@ const Services: NextPage = () => {
     <>
       <Head>
         <title>Services - Premium Delivery</title>
-        <meta name="description" content="Desc goes here" />
+        <meta
+          name="description"
+          content="Check out the affordable services fees for Premium Delivery. Click here to learn more."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <InnerHero {...Props} />

@@ -14,7 +14,10 @@ const About: NextPage = () => {
     <>
       <Head>
         <title>About - Premium Delivery</title>
-        <meta name="description" content="Desc goes here" />
+        <meta
+          name="description"
+          content="Premium Delivery is a call-to-order grocery, food, and drink delivery service. We serve Fort Erie proper, Stevensville, Crystal Beach, and Ridgeway."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <InnerHero {...Props} />

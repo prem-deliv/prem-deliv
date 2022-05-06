@@ -14,7 +14,10 @@ const Services: NextPage = () => {
     <>
       <Head>
         <title>Services - Premium Delivery</title>
-        <meta name="description" content="Desc goes here" />
+        <meta
+          name="description"
+          content="You must be 19+ for any LCBO, Beer Store, or tobacco orders. All such orders require in-person delivery with provided government-issued photo ID. "
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <InnerHero {...Props} />
