@@ -62,45 +62,36 @@ const Footer = () => {
                 &copy; 2022 Premium Delivery. <br />
                 All Rights Reserved.
               </p>
-              <p>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://infused.agency"
-                >
-                  Niagara Web Design, SEO
-                </a>{" "}
-                by Infused Agency
-              </p>
             </Col>
           </Row>
           <Row>
             <Col lg="12">
               <p style={{ fontSize: '12px' }}>
                   Website by Infused Agency |{" "}
-                  <a href="https://infused.agency" target="_blank" title="Niagara Web Design">
+                  <a href="https://infused.agency" target="_blank" rel="noreferrer" title="Niagara Web Design">
                     Niagara Web Design
                   </a>{" "}
                   |{" "}
-                  <a href="https://infused.agency" target="_blank" title="Web Design Grimsby">
+                  <a href="https://infused.agency" target="_blank" rel="noreferrer" title="Web Design Grimsby">
                     Web Design Grimsby
                   </a>{" "}
                   |{" "}
-                  <a href="https://infused.agency/beamsville-web-design" target="_blank" title="Web Design Beamsville">
+                  <a href="https://infused.agency/beamsville-web-design" target="_blank" rel="noreferrer" title="Web Design Beamsville">
                     Web Design Beamsville
                   </a>{" "}
                   |{" "}
-                  <a href="https://infused.agency/web-design-welland" target="_blank" title="Web Design Welland">
+                  <a href="https://infused.agency/web-design-welland" target="_blank" rel="noreferrer" title="Web Design Welland">
                     Web Design Welland
                   </a>{" "}
                   |{" "}
-                  <a href="https://infused.agency/fort-erie-web-design" target="_blank" title="Web Design Fort Erie">
+                  <a href="https://infused.agency/fort-erie-web-design" target="_blank" rel="noreferrer" title="Web Design Fort Erie">
                     Web Design Fort Erie
                   </a>{" "}
                   |{" "}
                   <a
                     href="https://infused.agency/port-colborne-web-design"
                     target="_blank"
+                    rel="noreferrer"
                     title="Web Design Port Colborne"
                   >
                     Web Design Port Colborne
@@ -109,6 +100,7 @@ const Footer = () => {
                   <a
                     href="https://infused.agency/niagara-seo-company"
                     target="_blank"
+                    rel="noreferrer"
                     title="Niagara SEO"
                   >
                     Niagara SEO
