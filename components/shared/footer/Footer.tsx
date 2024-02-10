@@ -72,7 +72,7 @@ const Footer = () => {
                     Niagara Web Design
                   </a>{" "}
                   |{" "}
-                  <a href="https://infused.agency" target="_blank" rel="noreferrer" title="Web Design Grimsby">
+                  <a href="https://infused.agency/grimsby-web-design" target="_blank" rel="noreferrer" title="Web Design Grimsby">
                     Web Design Grimsby
                   </a>{" "}
                   |{" "}
